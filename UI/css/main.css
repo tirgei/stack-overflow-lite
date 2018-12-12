@@ -194,7 +194,8 @@ body {
     padding: 10px;
     align-items: center;
     z-index: 5;
-    box-shadow: 5px 0 5px 2px rgba(0, 0, 0, 0.144);
+    border-bottom: 1px solid #e6e6e6;
+    /* box-shadow: 5px 0 5px 2px rgba(0, 0, 0, 0.144); */
 }
 
 .nav-logo {
@@ -239,7 +240,8 @@ body {
 
 .side-nav {
     width: 17%;
-    box-shadow: 0 8px 5px 3px rgba(0, 0, 0, 0.144);
+    border-right: 1px solid #e6e6e6;
+    /* box-shadow: 0 8px 5px 3px rgba(0, 0, 0, 0.144); */
 }
 
 .side-nav ul {
@@ -263,6 +265,10 @@ body {
     border-left: 5px solid white;
 }
 
+.side-nav ul > li:first-child {
+    margin: 0;
+}
+
 .side-nav-item i {
     font-size: 20px;
     width: 30px;
@@ -282,9 +288,9 @@ body {
 
 .nav-item-active {
     color: black;
-    border-left: 5px solid #D58E3A;
-    background-color: rgb(244, 247, 249);
-    font-weight: 600;
+    border-left: 5px solid #ff7043;
+    background-color: #f1f1f1;
+    font-weight: 550;
 }
 
 .nav-item-active > i {
@@ -295,6 +301,76 @@ body {
 .dashboard {
     flex: 1;
     height: 100%;
+    width: 100%;
     overflow-y: scroll;
 }
+
+.questions-bar {
+    padding: 20px 30px;
+    align-items: center;
+    height: fit-content;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+#questions-title {
+    font-size: 20px;
+    opacity: 0.8;
+    color: #666666;
+    font-weight: bold;
+    flex: 1;
+}
+
+#ask-question {
+    background-color: #ff7043;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    height: fit-content;
+}
+
+#ask-question:hover {
+    background-color: #f4511e;
+}
+
+.question-row {
+    width: 95%;
+    height: fit-content;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.question-details {
+    flex: 1;
+}
+
+.question-title {
+    color: #0095ff;
+    font-weight: bold;
+    font-size: 16px;
+    height: fit-content;
+}
+
+.tag {
+    font-size: 12px;
+    color: #666666;
+    border: 1px solid #b3b3b3;
+    margin: 0 5px;
+    padding: 3px 8px;
+    border-radius: 50px;
+}
+
+.tag:first-child {
+    margin-left: 0;
+}
+
+.question-time {
+    font-size: 13px;
+    color: #666666;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+
 
