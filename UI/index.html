@@ -3,6 +3,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Stack Overflow Lite</title>
+        <link rel="icon" type="image/png" href="/UI/images/logo.png" sizes="196x196">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="/UI/css/main.css">
@@ -11,6 +12,47 @@
     </head>
 
     <body>
-        
+        <div class="parent-dashboard flex flex-column fh fw">
+
+            <div class="navbar fw box flex">
+                <a class="nav-logo flex" href="#"> 
+                    <img src="/UI/images/logo.png" alt="logo"> 
+                    <span>Stack Overflow</span>
+                </a>
+
+                <a class="navbar-login" href="login.html">Login</a>
+            </div>
+
+           <div class="dashboard-container fw flex flex-row">
+                <div class="side-nav fh">
+                    <ul class="grid box">
+                        <li class="side-nav-item nav-item-active">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </li>
+    
+                        <li class="side-nav-item">
+                            <i class="fas fa-question-circle"></i>
+                            <span>Questions</span>
+                        </li>
+    
+                        <li class="side-nav-item">
+                            <i class="fas fa-user"></i>
+                            <span>Users</span>
+                        </li>
+    
+                        <li class="side-nav-item">
+                            <i class="fas fa-user-circle"></i>
+                            <span>My Profile</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="dashboard">
+
+                </div>
+           </div>
+            
+        </div>
     </body>
 </html>
