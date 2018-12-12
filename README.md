@@ -1,6 +1,6 @@
 # StackOverflow-lite
 
-[StackOverflow-lite](https://tirgei.github.io/stack-overflow-lite) is a lite version of [StackOverflow](https://stackoverflow.com) where users can post questions and provide answers.
+[StackOverflow-lite](https://tirgei.github.io/stack-overflow-lite/UI) is a lite version of [StackOverflow](https://stackoverflow.com) where users can post questions and provide answers.
 
 ## Required features
 
