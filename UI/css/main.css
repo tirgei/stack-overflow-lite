@@ -1,0 +1,155 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .card {
+    background: white;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.171);
+    border-radius: 3px;
+} */
+
+.landing-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#register-illustration {
+    height: 100%;
+    flex: 60%;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+#register-illustration img {
+    width: 100%;
+    margin: auto;
+}
+
+.landing-details {
+    flex: 40%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #f1f1f1; */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.landing-details-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+}
+
+.landing-details-logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.landing-details-logo span {
+    height: fit-content;
+    line-height: 0.5em;
+    flex: 1;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0095ff
+}
+
+.landing-details p {
+    color: #666666;
+    line-height: 1.5em;
+    margin: 30px 0;
+}
+
+.details-form {
+    width: 100%;
+    display: grid;
+}
+
+.form-input {
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.form-input i {
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.form-input input {
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+    background: none;
+    border: none;
+    flex: 1;
+}
+
+.form-input input:focus{
+    outline: none;
+}
+
+.form-input:last-child {
+    border-bottom: none;
+}
+
+.landing-card {
+    width: 85%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    display: grid;
+    background: white;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.171);
+    border-radius: 3px;
+}
+
+.details-form button {
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    background: #0095ff;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+
+.details-form button:hover {
+    opacity: 0.9;
+}
+
+.landing-card span {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15px;
+    color: #666666;
+}
+
+.landing-card span a {
+    text-decoration: none;
+    color: #0095ff;
+    font-weight: bold;
+}
