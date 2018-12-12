@@ -83,6 +83,13 @@ body {
     display: grid;
 }
 
+.details-form-title {
+    font-weight: bold;
+    margin: 0 auto 15px auto;
+    text-transform: capitalize;
+    opacity: 0.9;
+}
+
 .form-input {
     padding: 5px;
     margin: 5px;
@@ -140,7 +147,7 @@ body {
     opacity: 0.9;
 }
 
-.landing-card span {
+.details-form-account {
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -148,7 +155,7 @@ body {
     color: #666666;
 }
 
-.landing-card span a {
+.details-form-account a {
     text-decoration: none;
     color: #0095ff;
     font-weight: bold;
