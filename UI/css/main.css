@@ -333,12 +333,22 @@ body {
     background-color: #f4511e;
 }
 
+.questions-container {
+    flex: 1;
+    /* background: maroon; */
+}
+
 .question-row {
     width: 95%;
     height: fit-content;
+    align-items: center;
     margin: 0 auto;
     padding-bottom: 20px;
+    box-sizing: border-box;
     border-bottom: 1px solid #f1f1f1;
+    /* display: flex; */
+    flex-direction: row;
+    /* background-color: pink; */
 }
 
 .question-details {
@@ -372,5 +382,30 @@ body {
     margin-top: 10px;
 }
 
+
+.question-stats {
+    align-items: center;
+    height: fit-content;
+    width: 25%;
+    background: rebeccapurple;
+    justify-content: center;
+}
+
+.stat {
+    height: fit-content;
+    margin: 0 10px;
+    background: red;
+    align-items: center;
+}
+
+.stat h3 {
+    background: green;
+    margin: 0;
+}
+
+.stat span {
+    background: blue;
+    margin-top: 10px;
+}
 
 
