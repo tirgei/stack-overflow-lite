@@ -3,8 +3,8 @@ function login() {
 }
 
 function toggleDashboard(id) {
-    var home = document.getElementById('home-dashboard')
-    var qs = document.getElementById('questions-dashboard')
+    var home = document.getElementById('home-dashboard');
+    var qs = document.getElementById('questions-dashboard');
 
     var nav = document.getElementById(id);
     var navParent = nav.parentElement.getElementsByTagName("li");
@@ -24,4 +24,22 @@ function toggleDashboard(id) {
         qs.style.display = "flex";
 
     } 
+}
+
+function showAskQuestionDialog() { 
+    var modal = document.getElementById("modal");
+    var cancel = document.getElementById("dialog-cancel")
+
+    modal.style.display = "block";
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    cancel.onclick = function() {
+        modal.style.display = "none";
+    }
+
 }
