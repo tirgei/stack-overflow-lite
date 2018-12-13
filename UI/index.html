@@ -14,6 +14,34 @@
 
     <body>
         <div class="parent-dashboard flex flex-column fh fw">
+            <div class="modal" id="modal">
+                <div class="post-question-dialog flex flex-column">
+                    <span class="title">Ask Question</span>
+
+                    <hr>
+
+                    <div class="grid fw">
+                        <span>Title</span>
+                        <textarea name="title" id="title-input" rows="1" placeholder="Title"></textarea>
+                    </div>
+
+                    <div class="grid fw">
+                        <span>Description</span>
+                        <textarea name="title" id="description-input" rows="8" placeholder="Description"></textarea>
+                    </div>
+
+                    <div class="grid fw">
+                        <span>Tags</span>
+                        <textarea name="title" id="title-input" rows="1" placeholder="Tags e.g. python, html"></textarea>
+                    </div>
+
+                    <div class="modal-actions flex flex-row">
+                        <button id="dialog-cancel" class="box">Cancel</button>
+                        <button id="dialog-submit" class="box">Post Question</button>
+                    </div>
+
+                </div>
+            </div>
 
             <div class="navbar fw box flex">
                 <a class="nav-logo flex" href="#"> 
@@ -52,7 +80,7 @@
                 <div class="dashboard box flex flex-column" id="home-dashboard">
                     <div class="questions-bar flex flex-row fw box">
                         <span id="questions-title">Questions</span>
-                        <button class="box" id="ask-question">Ask Question</button>
+                        <button class="box" id="ask-question" onclick="showAskQuestionDialog()">Ask Question</button>
                     </div>
 
                     <div class="questions-container flex flex-column">
@@ -190,7 +218,7 @@
                     <div class="all-questions-bar flex flex-column fw box">
                         <div class="flex flex-row fw box" style="align-items:center">
                             <span id="questions-title">All Questions</span>
-                            <button class="box" id="ask-question">Ask Question</button>
+                            <button class="box" id="ask-question" onclick="showAskQuestionDialog()">Ask Question</button>
                         </div>
 
                         <div class="all-questions-toggle flex flex-row">
@@ -336,5 +364,6 @@
            </div>
             
         </div>
+
     </body>
 </html>
