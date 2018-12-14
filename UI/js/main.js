@@ -1,7 +1,3 @@
-function login() {
-    window.location = "/UI/index.html"
-}
-
 function toggleDashboard(id) {
     var home = document.getElementById('home-dashboard');
     var qs = document.getElementById('questions-dashboard');
