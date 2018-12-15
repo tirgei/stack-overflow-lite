@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Stack Overflow Lite</title>
+        <link rel="icon" type="image/png" href="images/logo.png" sizes="196x196">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <script src="js/main.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navbar fw box flex">
+                <a class="nav-logo flex" href="index.html"> 
+                    <img src="images/logo.png" alt="logo"> 
+                    <span>Stack Overflow</span>
+                </a>
+
+                <a class="navbar-login" href="login.html">Login</a>
+            </div>
+
+            <div class="answers-container flex flex-row box fw">
+              
+                <div id="answers" class="flex flex-column box">
+                    <p id="question-title" class="fw">Error faced when storing a json in a variable and inserting into a MYSQL code</p>
+
+                    <p id="question-description" class="fw">
+                        Reprehenderit officia qui amet occaecat aute duis aliquip sunt nisi incididunt do proident dolore. Lorem quis tempor anim Lorem. Ea nisi eiusmod officia ad mollit. Nisi nostrud ut voluptate laborum commodo enim. Reprehenderit ut excepteur non aliquip pariatur deserunt sit ipsum occaecat pariatur pariatur duis exercitation amet.
+
+                        sunt labore do velit deserunt sunt nostrud voluptate. Mollit magna incididunt nisi cupidatat. Duis ex irure laborum cupidatat adipisicing elit non Lorem adipisicing labore. Enim occaecat enim veniam excepteur incididunt officia eu exercitation eu sunt nisi duis.
+
+                        Minim aliquip sit est amet. Proident labore incididunt nulla ea duis enim sit magna laboris ad officia culpa elit sunt. Sunt minim irure duis duis irure ullamco id eu ut. Consectetur tempor ad tempor et deserunt deserunt dolor commodo veniam nisi non labore id ullamco.
+
+                        Consequat dolor sit minim cillum ut eiusmod aliquip esse. Nostrud amet eu adipisicing cupidatat nostrud eu dolor nisi est. Eu nisi Lorem voluptate commodo nulla dolor pariatur adipisicing tempor duis aliqua dolore excepteur ea. Culpa aliquip in sunt eiusmod elit. Dolore anim et cillum veniam do dolor anim nostrud consectetur culpa velit.
+                    </p>
+
+                    <div class="question-tags flex flex-row">
+                        <span class="tag">powerpoint</span>
+                        <span class="tag">microsoft office</span>
+                        <span class="tag">nodejs</span>
+                        <span class="tag">slideshowjs</span>
+                    </div>
+
+                    <div class="user-details box flex flex-row">
+                        <img src="images/user.png" alt="user avatar">
+
+                        <div class="flex flex-column">
+                            <span id="name">Vincent Tirgei</span>
+                            <span id="time">20 mins ago</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-row fw" id="question-actions">
+                        <span id="answers-count">2 answers</span>
+
+                        <div class="all-questions-toggle flex flex-row">
+                            <span class="box all-questions-toggle-active">Upvotes</span>
+                            <span class="box">Latest</span>
+                        </div>
+                    </div>
+
+                    <hr class="answers-separator">
+
+                    <div id="answers-list" class="flex flex-column fw">
+                        <div class="answer fw flex flex-row">
+                            <div class="answer-status flex flex-column box">
+                                <ul class="flex flex-column fw">
+                                    <li>
+                                        <i class="fas fa-caret-up"></i>
+                                    </li>
+
+                                    <li>
+                                        <span>124</span>
+                                    </li>
+
+                                    <li>
+                                        <i class="fas fa-caret-down"></i>
+                                    </li>
+                                </ul>
+
+                                <i class="answer-accepted fas fa-check"></i>
+                            </div>
+                    
+                            <div class="answer-details flex flex-column box">
+                                <p id="question-description" class="fw">
+                                    Reprehenderit officia qui amet occaecat aute duis aliquip sunt nisi incididunt do proident dolore. Lorem quis tempor anim Lorem. Ea nisi eiusmod officia ad mollit. Nisi nostrud ut voluptate laborum commodo enim. Reprehenderit ut excepteur non aliquip pariatur deserunt sit ipsum occaecat pariatur pariatur duis exercitation amet.
+            
+                                    sunt labore do velit deserunt sunt nostrud voluptate. Mollit magna incididunt nisi cupidatat. Duis ex irure laborum cupidatat adipisicing elit non Lorem adipisicing labore. Enim occaecat enim veniam excepteur incididunt officia eu exercitation eu sunt nisi duis.
+                                </p>
+                                <div class="user-details box flex flex-row">
+                                    <img src="images/user.png" alt="user avatar">
+            
+                                    <div class="flex flex-column">
+                                        <span id="name">Vincent Tirgei</span>
+                                        <span id="time">20 mins ago</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="answer fw flex flex-row">
+                            <div class="answer-status flex flex-column box">
+                                <ul class="flex flex-column fw">
+                                    <li>
+                                        <i class="fas fa-caret-up"></i>
+                                    </li>
+
+                                    <li>
+                                        <span>2</span>
+                                    </li>
+
+                                    <li>
+                                        <i class="fas fa-caret-down"></i>
+                                    </li>
+                                </ul>
+
+                                <i class="answer-not-accepted fas fa-check"></i>
+                            </div>
+                    
+                            <div class="answer-details flex flex-column box">
+                                <p id="question-description" class="fw">
+                                    Reprehenderit officia qui amet occaecat aute duis aliquip sunt nisi incididunt do proident dolore. Lorem quis tempor anim Lorem. Ea nisi eiusmod officia ad mollit. Nisi nostrud ut voluptate laborum commodo enim. Reprehenderit ut excepteur non aliquip pariatur deserunt sit ipsum occaecat pariatur pariatur duis exercitation amet.
+            
+                                    sunt labore do velit deserunt sunt nostrud voluptate. Mollit magna incididunt nisi cupidatat. Duis ex irure laborum cupidatat adipisicing elit non Lorem adipisicing labore. Enim occaecat enim veniam excepteur incididunt officia eu exercitation eu sunt nisi duis.
+                                </p>
+                                <div class="user-details box flex flex-row">
+                                    <img src="images/user.png" alt="user avatar">
+            
+                                    <div class="flex flex-column">
+                                        <span id="name">Vincent Tirgei</span>
+                                        <span id="time">20 mins ago</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="suggestions" class="box flex flex-column">
+                    <span>Related Questions</span>
+
+                    <hr class="fw">
+
+                    <div class="flex flex-column">
+                        <p class="question-title" onclick="showAnswers()">Error faced when storing a json in a variable and inserting into a MYSQL code</p>
+
+                        <p class="question-title" onclick="showAnswers()">UI Layout Initialization Error-The center-pane element does not exist, the center pane is required element</p>
+
+                        <p class="question-title" onclick="showAnswers()">Why sometimes the javascript menu toggle turns into a link instead of toggling?</p>
+
+                        <p class="question-title" onclick="showAnswers()">Python Mockito configuration for running test cases</p>
+
+                        <p class="question-title" onclick="showAnswers()">I got a problem in opening PowerPoint presentation by nodejs and slideshowjs</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

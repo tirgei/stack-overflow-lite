@@ -39,3 +39,7 @@ function showAskQuestionDialog() {
     }
 
 }
+
+function showAnswers() {
+    window.location = "question.html";
+}
