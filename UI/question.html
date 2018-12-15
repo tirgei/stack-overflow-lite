@@ -14,7 +14,40 @@
 
     <body>
         <div class="container">
-            
+            <div class="navbar fw box flex">
+                <a class="nav-logo flex" href="index.html"> 
+                    <img src="images/logo.png" alt="logo"> 
+                    <span>Stack Overflow</span>
+                </a>
+
+                <a class="navbar-login" href="login.html">Login</a>
+            </div>
+
+            <div class="answers-container flex flex-row box fw">
+              
+                <div id="answers">
+
+                </div>
+
+                <div id="suggestions" class="box flex flex-column">
+                    <span>Related Questions</span>
+
+                    <hr class="fw">
+
+                    <div class="flex flex-column">
+                        <p class="question-title" onclick="showAnswers()">Error faced when storing a json in a variable and inserting into a MYSQL code</p>
+
+                        <p class="question-title" onclick="showAnswers()">UI Layout Initialization Error-The center-pane element does not exist, the center pane is required element</p>
+
+                        <p class="question-title" onclick="showAnswers()">Why sometimes the javascript menu toggle turns into a link instead of toggling?</p>
+
+                        <p class="question-title" onclick="showAnswers()">Python Mockito configuration for running test cases</p>
+
+                        <p class="question-title" onclick="showAnswers()">I got a problem in opening PowerPoint presentation by nodejs and slideshowjs</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </body>
 </html>
