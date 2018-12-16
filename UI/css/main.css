@@ -689,6 +689,14 @@ body {
     cursor: pointer;
 }
 
+.answer-status ul li:first-child > i:hover {
+    color: #43a047;
+}
+
+.answer-status ul li:last-child > i:hover {
+    color: red;
+}
+
 .answer-status ul li span {
     font-size: 23px;
     color: #666666;
