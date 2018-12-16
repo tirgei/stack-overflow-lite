@@ -713,6 +713,13 @@ body {
     color: white;
 }
 
+.accept-answer {
+    margin-top: 15px;
+    font-size: 27px;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
 .answer-details {
     width: 90%;
     padding-left: 10px;
