@@ -365,7 +365,7 @@ body {
     flex: 1;
 }
 
-#ask-question {
+.question-button {
     background-color: #ff7043;
     padding: 10px 20px;
     border-radius: 5px;
@@ -374,7 +374,7 @@ body {
     height: fit-content;
 }
 
-#ask-question:hover {
+.question-button:hover {
     background-color: #f4511e;
     cursor: pointer;
 }
@@ -725,6 +725,11 @@ body {
     width: 90%;
     align-self: flex-end;
     opacity: 0.2;
+}
+
+#question-actions .question-button {
+    padding: 7.5px 20px;
+    margin: 0 10px;
 }
 
 #suggestions {
