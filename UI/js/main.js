@@ -43,3 +43,25 @@ function showAskQuestionDialog() {
 function showAnswers() {
     window.location = "question.html";
 }
+
+function confirmDeleteQuestion() {
+    var modal = document.getElementById("modal");
+    var cancel = document.getElementById("cancel");
+    var deletebtn = document.getElementById("delete");
+
+    modal.style.display = "block";
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    cancel.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    deletebtn.onclick = function() {
+        modal.style.display = "none";
+    }
+}
