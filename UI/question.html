@@ -13,6 +13,23 @@
     </head>
 
     <body>
+        <div class="modal" id="modal">
+            <div class="confirm-dialog flex flex-column box">
+                <span id="title">Delete Question</span>
+
+                <!-- <hr class="answers-separator"> -->
+
+                <p>Are you sure you want to delete this question?</p>
+
+                <!-- <hr class="answers-separator"> -->
+
+                <div class="flex fw flex-row">
+                    <button class="box" id="cancel">Cancel</button>
+                    <button class="box" id="delete">Delete</button>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <div class="navbar fw box flex">
                 <a class="nav-logo flex" href="index.html"> 
@@ -61,6 +78,8 @@
                             <span class="box all-questions-toggle-active">Upvotes</span>
                             <span class="box">Latest</span>
                         </div>
+
+                        <button class="question-button" onclick="confirmDeleteQuestion()">Delete</button>
                     </div>
 
                     <hr class="answers-separator">
